@@ -45,6 +45,13 @@
       color: #fff;
     }
 
+    @media (max-width: 768px) {
+      #sidebar {
+        position: relative;
+        min-height: auto;
+      }
+    }
+
     .avatar-ring {
       width: 100px;
       height: 100px;
@@ -264,9 +271,74 @@
       body { background: #fff; }
     }
 
+    @media (max-width: 992px) {
+      #sidebar {
+        min-height: auto;
+        padding: 1.5rem 1.2rem;
+        position: relative;
+        top: auto;
+        sticky: none;
+      }
+      #main { padding: 1.5rem 1rem; }
+      body { font-size: 0.88rem; }
+      .avatar-ring { width: 80px; height: 80px; }
+      .avatar-ring i { font-size: 2.2rem; }
+      #sidebar h1 { font-size: 1.1rem; }
+      .entry { padding-left: 0.8rem; }
+      .entry-title { font-size: 0.9rem; }
+    }
+
     @media (max-width: 768px) {
-      #sidebar { min-height: auto; }
-      #main { padding: 1.5rem 1.2rem; }
+      #sidebar {
+        min-height: auto;
+        padding: 1.2rem 1rem;
+        margin-bottom: 1.5rem;
+      }
+      #main { padding: 1.2rem 1rem; }
+      body { font-size: 0.85rem; }
+      .container-fluid { flex-direction: column; }
+      .avatar-ring { width: 70px; height: 70px; }
+      .avatar-ring i { font-size: 2rem; }
+      #sidebar h1 { font-size: 1rem; }
+      .sec-title { font-size: 0.65rem; }
+      .entry { padding-left: 0.7rem; margin-bottom: 1rem; }
+      .entry-title { font-size: 0.85rem; }
+      .entry-desc { font-size: 0.8rem; }
+      .summary-box { padding: 0.8rem 1rem; margin-bottom: 1.5rem; }
+      .edu-card { padding: 0.7rem 1rem; }
+      .social-row { gap: 0.5rem; }
+      .social-row a { width: 32px; height: 32px; font-size: 0.95rem; }
+      .skill-chip { font-size: 0.68rem; padding: 0.15rem 0.45rem; }
+    }
+
+    @media (max-width: 576px) {
+      #sidebar {
+        padding: 1rem 0.8rem;
+        margin-bottom: 1rem;
+      }
+      #main { padding: 1rem 0.8rem; }
+      body { font-size: 0.8rem; }
+      .avatar-ring { width: 60px; height: 60px; margin-bottom: 0.8rem; }
+      .avatar-ring i { font-size: 1.8rem; }
+      #sidebar h1 { font-size: 0.95rem; }
+      #sidebar .tagline { font-size: 0.75rem; }
+      .divider { margin: 1rem 0; }
+      .contact-item { font-size: 0.75rem; margin-bottom: 0.6rem; }
+      .sec-title { font-size: 0.6rem; margin-bottom: 0.8rem; }
+      .entry { padding-left: 0.6rem; margin-bottom: 0.9rem; }
+      .entry-title { font-size: 0.8rem; }
+      .entry-sub { font-size: 0.75rem; }
+      .entry-date { font-size: 0.7rem; }
+      .entry-desc { font-size: 0.75rem; line-height: 1.5; }
+      .summary-box { padding: 0.7rem 0.8rem; margin-bottom: 1.2rem; font-size: 0.8rem; }
+      .edu-card { padding: 0.6rem 0.8rem; margin-bottom: 0.7rem; }
+      .edu-card .inst { font-size: 0.8rem; }
+      .edu-card .course { font-size: 0.75rem; }
+      .social-row { gap: 0.4rem; }
+      .social-row a { width: 28px; height: 28px; font-size: 0.85rem; }
+      #qr-canvas { width: 100px; height: 100px; }
+      .skill-chip { font-size: 0.62rem; padding: 0.12rem 0.4rem; margin: 0.1rem 0.08rem; }
+      .tag { font-size: 0.65rem; padding: 0.1rem 0.4rem; }
     }
   </style>
 </head>
@@ -276,7 +348,7 @@
   <div class="row g-0">
 
     <!-- ── SIDEBAR ── -->
-    <div class="col-md-4 col-lg-3" id="sidebar">
+    <div class="col-12 col-md-4 col-lg-3" id="sidebar">
 
       <div class="avatar-ring">
         <img src="WhatsApp Image 2026-06-22 at 21.43.03.jpeg" alt="Matheus Amorim" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
@@ -338,7 +410,7 @@
     </div><!-- /sidebar -->
 
     <!-- ── MAIN ── -->
-    <div class="col-md-8 col-lg-9" id="main">
+    <div class="col-12 col-md-8 col-lg-9" id="main">
 
       <!-- Resumo -->
       <div class="sec-title"><i class="bi bi-person-lines-fill"></i> Sobre mim</div>

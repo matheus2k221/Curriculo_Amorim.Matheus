@@ -32,7 +32,7 @@ Um portfólio profissional moderno e responsivo desenvolvido com HTML5, CSS3 e B
 1. **Clone ou baixe o repositório**
 ```bash
 git clone <seu-repositorio>
-cd "site curriculo matheus"
+cd "site curriculo "
 ```
 
 2. **Instale as dependências (opcional)**
@@ -98,7 +98,7 @@ Edite o arquivo `index.html` e localize as seções:
 ### Modificar Link WhatsApp
 No arquivo `generate-qr.js`, altere:
 ```javascript
-const waLink = "https://wa.me/5561993011465"; // Coloque seu número
+const waLink = "https://wa.me/55"; // Coloque seu número
 ```
 
 ### Personalizar Cores

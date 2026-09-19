@@ -1,30 +1,15 @@
 # Currículo Digital — Matheus Amorim
 
-Um portfólio profissional moderno e responsivo desenvolvido com HTML5, CSS3 e Bootstrap 5. Apresenta informações detalhadas sobre experiência, formação e competências, com integração de QR Code para contato via WhatsApp.
-
+Usei html5,css3 e o framework bootstrap
 ## 🎯 Características Principais
 
-- ✨ **Design Moderno**: Interface limpa e profissional com paleta de cores sofisticada
-- 📱 **Responsivo**: Totalmente adaptável para desktop, tablet e mobile
-- 🎨 **UI/UX Aprimorada**: Componentes visuais consistentes com Bootstrap 5
+
 - 🔗 **QR Code Integrado**: Geração automática de QR Code para WhatsApp
-- 🚀 **Performance Otimizada**: Carregamento rápido com CDN
-- ♿ **Acessível**: Desenvolvido com boas práticas de acessibilidade web
 
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5** — Estrutura semântica moderna
-- **CSS3** — Estilos responsivos e animações
-- **Bootstrap 5** — Framework CSS para componentes UI
-- **Bootstrap Icons** — Ícones profissionais
-- **Google Fonts** — Tipografia (Inter, Space Grotesk)
-- **QRCode.js** — Biblioteca para gerar QR Codes
-- **Node.js** — Runtime para scripts de geração de QR Code
 
 ## 📦 Instalação
 
 ### Pré-requisitos
-- Node.js 14+ (opcional, apenas para gerar QR Code)
 - Navegador moderno (Chrome, Firefox, Safari, Edge)
 
 ### Passos
@@ -133,8 +118,7 @@ No arquivo `index.html`, localize a seção `:root` no CSS e modifique as variá
 | Chrome | ✅ Completo |
 | Firefox | ✅ Completo |
 | Safari | ✅ Completo |
-| Edge | ✅ Completo |
-| IE 11 | ⚠️ Parcial |
+
 
 ## 📝 Licença
 
@@ -152,9 +136,9 @@ Obrigado por ministrar a aula e guiar na criação deste currículo digital!
 
 ## �👤 Autor
 
-**Matheus Amorim**  
+**Matheus Amorim Ferreira**  
 
 ---
 
-**Última atualização:** 2026  
-**Versão:** 1.0.0
+**Última atualização:** 2026/09/18 
+
